@@ -12,7 +12,7 @@ This github repository is organized as follows:
 - **Final Files** - Contains the final versions of the two files used as the data source for the Tableau Workbook:
   - **final_dataset.csv**
   - **keywords.xlsx**
-- **CSV Files** - Contains the individual publication datasets for each online database that data was pulled from and the csv file with the keywords generated from our NLP program.  
+- **CSV Files** - Contains the individual publication datasets for each online database that data was pulled from, the file with  keywords generated from our NLP program, and the original files provided by the Family Medicine team listing the faculty members (in csv and xlsx format).  
 - **Python Files** - Contains all the .ipynb files with all of the code generated for this project. 
 - A copy of the final Tableau Workbook deliverable (**Dashboard.twb**)
 - A video walkthrough designed to help the Family Medicine team replicate the Tableau workbook and update as needed (**whatever the name of the video is**). 
