@@ -20,7 +20,7 @@ This github repository is organized as follows:
 ## Dashboard Screenshots 
 The following images provide a glimpse of the final Tableau dashboard’s functionality.
 
-## Aknowledgements
+## Acknowledgements
 A special thank you to 
 - The Family Medicine Team: John Holkeboer, Devon Kinney, Lauren Marshall, and Blake Reynolds
 - The SI 485 instructional team
