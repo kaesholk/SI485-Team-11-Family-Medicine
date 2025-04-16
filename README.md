@@ -15,7 +15,6 @@ This github repository is organized as follows:
   - **keywords.xlsx**
 - **Python Files** - Contains all the .ipynb files with all of the code generated for this project. 
 - **Dashboard.twb** - The final Tableau Workbook deliverable. 
-- **Tableau Walkthrough.mp4** - A video walkthrough designed to help the Family Medicine team replicate the Tableau workbook and update as needed. 
 
 ## Dashboard Screenshots 
 The following images provide a glimpse of the final Tableau dashboard’s functionality.
