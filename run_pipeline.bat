@@ -10,7 +10,8 @@ for /f "tokens=1-3 delims=/" %%a in ("%date%") do (
 set formatted_date=%year%-%month%-%day%
 
 REM Define paths
-set original_path=merged_data.csv
+REM Set original_path to the most correct & recent dataset
+set original_path=merged_data_-2025-08-21-.csv
 set elements_path=elements.csv
 set scrape_path=scrape.csv
 set altmetric_path=altmetric.csv

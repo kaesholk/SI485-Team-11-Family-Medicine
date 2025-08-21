@@ -130,9 +130,12 @@ def main():
     # Load data
     df_merged = pd.read_csv(args.original_csv)
 
-    if (args.elements_csv):
+    if args.elements_csv:
         df_elements = pd.read_csv(args.elements_csv, encoding="cp1252")
-        df_merged = merge_elements(df_merged, df_elements)
+        df_new = merge_elements(df_merged, df_elements)   # returns only the new rows
+        # keep original rows and append new ones (concat will do nothing if df_new is empty)
+        df_merged = pd.concat([df_merged, df_new], ignore_index=True, sort=False)
+
 
     if (args.scrape_csv):
         df_scrape = pd.read_csv(args.scrape_csv)
